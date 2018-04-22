@@ -9,6 +9,9 @@ module.exports = {
     publicPath: '/',
     filename: 'bundle.js'
   },
+  node: {
+    fs: 'empty'
+  },
   module: {
     rules: [{
       exclude: /node_modules/,
